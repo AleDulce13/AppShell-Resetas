@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: #fff3e0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #d84315;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 30px 40px;
+    font-size: 22px;
+}
+
+#recetas{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.card h2{
+    margin-top: 0;
+    color: #d84315;
+
+}
+.tiempo{
+    margin-bottom: 10px;
+    color: #666;
+}
+
+#offline{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #c62828;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}
+#offline.visible{
+    display: block;
+}

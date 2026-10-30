@@ -1,0 +1,14 @@
+{
+    "name": "Mis Recetas",
+    "short_name": "Recetas",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff3e0",
+    "theme_color": "#d84315",
+    "description": "Recetas de cocina PWA",
+    "icons": [{
+        "src": "./Icono.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }]
+}
